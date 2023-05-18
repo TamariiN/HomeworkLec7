@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+:root{
+    --cream: #F2EAE2;
+    --aquamarine: #3D8168;
+    --black: #1C232B;
+    --gray: #6C7289;
+    --white: #FFFFFF;
+}
+body{
+    width: 375;
+    height: 100vh;
+    background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 343px;
+    height: 611px;
+    background-color:var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.img-div{
+    height: 240.47px;
+}
+.img-div img{
+    width: 343.7px;
+    border-radius: 10px 10px 0px 0px;
+}
+.texts{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    justify-content: flex-start;
+    
+}
+.prices-div{
+    display: flex;
+    gap: 17px;
+    align-items: center;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.addtocart-div{
+    width: 295px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: var(--aquamarine);
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 11.61px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+.addtocart-div img{
+    width: 14.39px;
+    height: 16px;
+}
+
+h1{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--black);
+
+    padding-left: 24px;
+    padding-top:7px;
+}
+p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: var(--gray);
+    padding-left: 24px;
+    padding-top: 6px;
+    padding-right: 24px;
+}
+h2{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--aquamarine);
+}
+h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white);
+}
+h4{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    text-decoration-line: line-through;
+    color: var(--gray);
+}
+h5{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 5px;
+    color: var(--gray);
+    padding-left: 24px;
+}
+
